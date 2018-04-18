@@ -1,0 +1,43 @@
+.trigger img{
+    height: 4em;
+}
+
+
+#modaalachtergrond{
+    background: rgba(0,0,0,0.5);
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: grid;
+}
+
+#modaalvenster{
+    width: 80vh;
+    justify-content: center;
+    align-self: center;
+    background: white;
+    padding: 2em;
+    max-height: 90vh;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sluitknop{
+    float: right;
+}
+
+body{
+    magrin:0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+footer{
+    color: #fff;
+    background: #000;
+}
+
